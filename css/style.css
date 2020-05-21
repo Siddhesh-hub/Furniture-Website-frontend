@@ -1,0 +1,392 @@
+/*Google font*/
+@import url('https://fonts.googleapis.com/css?family=Acme|Girassol|Lobster|Oswald|Patua+One|Roboto+Slab|Rubik|Sniglet&display=swap');
+
+* {
+    box-sizing: border-box;
+
+}
+
+header,
+footer,
+main,
+section {
+    overflow-x: hidden;
+}
+
+:root {
+    --Sniglet-font: "Sniglet", cursive;
+    --Acme-font: "Acme", cursive;
+    --Girassol-font: "Girassol", cursive;
+    --Lobster-font: "Lobster", cursive;
+    --Oswald-font: "Oswald", cursive;
+    --Patua-font: "Patua One", cursive;
+    --Roboto-font: "Roboto Slab", cursive;
+    --Rubik-font: "Rubik", cursive;
+    --light-black: #2e2c2caf;
+    --bggradient: linear-gradient(to bottom,
+            #dd2476, #ff512f);
+    --light-gray: rgba(211, 211, 211);
+}
+
+header {
+    font-family: var(--Lobster-font);
+    height: 650px;
+}
+
+header a {
+    font-family: var(--Sniglet-font);
+    font-size: 0.9em;
+    color: whitesmoke;
+}
+
+
+
+header {
+    background: #dd2476;
+    background: var(--bggradient);
+    color: white;
+}
+
+image {
+    background: #dd2476;
+    background: var(--bggradient);
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background: #dd2476;
+    background: var(--bggradient);
+    min-width: 160px;
+    box-shadow: 0px 2px 15px 0px rgba(0, 0, 0, 0);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+header .nav-item:last-child {
+    padding-right: 10.5em;
+}
+
+header .nav-item {
+    padding: 0.9em;
+}
+
+.option:hover {
+    background: white;
+}
+
+header .navbar i {
+    color: black;
+}
+
+header .navbar i:hover {
+    color: white;
+}
+
+header .navbar .nav-brand {
+    padding-right: 1rem;
+    color: black;
+    font-size: 26px;
+}
+
+header .nav-brand:hover {
+    color: white;
+    text-decoration: none;
+    font-size: 30px;
+}
+
+header .container .col-md-5 h6 {
+    word-spacing: 10px;
+    font-weight: 20px;
+    font-size: 20px;
+}
+
+header .container .col-md-5 h1 {
+    font-size: 45px;
+}
+
+header .container .col-md-5 h1:hover {
+    font-size: 60px;
+}
+
+header .container .col-md-5 button {
+    border-radius: 25px;
+}
+
+/*Section 1*/
+.section-1 {
+    padding: 20vmin;
+}
+
+.section-1 .row .col-md-6 .pray img {
+    opacity: 0.8;
+    width: 200%;
+    border-radius: 0.2em;
+}
+
+
+.section-1 .row .col-md-6 .panel {
+    position: absolute;
+    top: 4vmin;
+    left: -60px;
+    background: white;
+    border-radius: 10px;
+    text-align: left;
+    padding: 5vmin 5vmin 5vmin 10vmin;
+    box-shadow: 0px 25px 42px rgba(0, 0, 0, 0.2);
+    z-index: inherit 1;
+}
+
+.section-1 .row .col-md-6 .panel h1 {
+    font-weight: bold;
+    padding: 0.4em;
+    font-size: 2em;
+}
+
+.section-1 .row .col-md-6 .panel p {
+    font-size: 0.9em;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+/* section-2*/
+.cover {
+    width: 100%;
+    height: 55vmin;
+    background: url(../assets/img_14.jpg);
+    background-position: -20rem -40rem;
+    background-size: 150%;
+    position: relative;
+}
+
+.cover .content {
+    background: rgba(0, 0, 0, 0.7);
+    height: 100%;
+    width: 100%;
+    padding: 10vmin 0vmin 0vmin 40vmin;
+}
+
+.cover .content h1 {
+    font-family: var(--Patua-font);
+    font-size: 6vmin;
+    color: whitesmoke;
+}
+
+.cover .content p {
+    font-family: var(--Oswald-font);
+    font-size: 3vmin;
+    color: #e5e5e5;
+}
+
+.numbers .rect {
+    text-align: center;
+    position: relative;
+    z-index: 1;
+    background: white;
+    width: 12rem;
+    height: 7rem;
+    padding: 3.5vmin;
+    margin: 2rem;
+    border-radius: 0.5em;
+    box-shadow: 1px 2px 50px 0px rgba(214, 61, 0, 0.993);
+}
+
+.numbers {
+    margin-top: -12vmin;
+}
+
+.numbers .rect h1 {
+    font-size: 2rem;
+    color: tomato;
+}
+
+.numbers .rect p {
+    font-family: var(--Acme-font);
+}
+
+.purchase>h1 {
+    padding-top: 15vmin;
+    padding-bottom: 0vmin;
+    font-family: var(--Lobster-font);
+}
+
+.purchase>p {
+    color: var(--light-black);
+    font-size: 3vmin;
+    padding-bottom: 10vmin;
+}
+
+
+
+.purchase .card {
+    width: 20rem;
+    margin: 5vmin;
+
+}
+
+.card .title {
+    background: rgba(208, 241, 241, 0.199);
+    padding: 1.4rem 2.5rem;
+    font-size: 4vmin;
+    font-family: var(--Patua-font);
+}
+
+
+.cards .card-text {
+    padding: 2.5rem 3 rem;
+    color: var(--light-black);
+
+}
+
+.card-body {
+    padding: 0;
+    word-wrap: break-word;
+}
+
+.card-body .pricing {
+    background: rgba(208, 241, 241, 0.589);
+    border-top-right-radius: 170px;
+    border-top-left-radius: 170px;
+
+}
+
+.card-body .pricing>h1 {
+    font-size: 7vmin;
+    padding: 1em 0.5em;
+}
+
+/* section-3*/
+.section-3 {
+    height: 70vmin;
+    margin-top: 15vmin;
+    background: var(--bggradient);
+    overflow-y: hidden;
+}
+
+.section-3 .col-md-12>h1 {
+    font-family: var(--Acme-font);
+    padding-top: 2em;
+    padding-bottom: 0.5em;
+    color: whitesmoke;
+    font-size: 6vmin;
+}
+
+.section-3 .col-md-12>p {
+    font-family: var(--Sniglet-font);
+    padding: 0.4em;
+    padding-bottom: 2em;
+    color: var(--light-gray);
+    font-size: 3vmin;
+}
+
+.section-3 .dekstop {
+    background: white;
+    display: inline-block;
+    border-radius: 3em;
+    padding: 2vmin 4.5vmin;
+    margin: 1em;
+}
+
+.section-3 .dekstop h3 {
+    font-size: 4vmin;
+}
+
+.section-3 .dekstop p {
+    font-size: 2vmin;
+}
+
+/*section 4*/
+.section-4 .container h1 {
+    font-size: 6vmin;
+    padding-top: 14vmin;
+}
+
+.section-4 .team {
+    padding: 10vmin 4vmin;
+}
+
+.section-4 .card {
+    margin-top: 10vmin;
+}
+
+.section-4 .card .card-text {
+    padding: 0.5em;
+    word-wrap: break-word;
+}
+
+.section-4 .card .card-body>a {
+    font-size: 1.5em;
+}
+
+
+.section-4 .carousel-item {
+    padding-left: 3rem;
+}
+
+.border-radius {
+    border-radius: 340px;
+    width: 60%;
+}
+
+/*Footer*/
+
+footer {
+    background: rgba(0, 0, 0, 0.8);
+    overflow-x: hidden;
+    padding: 14vmin 18vmin;
+}
+
+footer p>span {
+    color: #ff512f;
+}
+
+footer input {
+    border: none !important;
+}
+
+footer input::placeholder {
+    color: white !important;
+}
+
+footer .input-group .input-group-text {
+    background: var(--bggradient);
+    border: none;
+}
+
+footer .column i {
+    color: #dd2476;
+
+}
+
+footer .column i+i {
+    padding: 0 0.5;
+}
+
+/* Last things*/
+.UI-design {
+    height: 50px;
+    width: 50px;
+}
+
+.carousel-control-next-icon,
+.carousel-control-prev-icon {
+    height: 30px;
+    width: 30px;
+    outline: black;
+    background-color: rgba(241, 238, 238, 0.3);
+    background-size: 100%, 100%;
+    border-radius: 50%;
+}

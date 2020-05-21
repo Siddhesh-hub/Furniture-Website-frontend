@@ -1,0 +1,5 @@
+@media only screen and(max-width:768px) {
+    header .navbar i {
+        padding-left: 600px;
+    }
+}
